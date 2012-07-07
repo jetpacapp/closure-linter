@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5996E35515A8C42C00556619 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		5996E35715A8C42C00556619 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		5996E35815A8C42C00556619 /* checker.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = checker.py; sourceTree = "<group>"; };
+		5996E35915A8C42C00556619 /* checkerbase.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = checkerbase.py; sourceTree = "<group>"; };
+		5996E35A15A8C42C00556619 /* closurizednamespacesinfo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = closurizednamespacesinfo.py; sourceTree = "<group>"; };
+		5996E35B15A8C42C00556619 /* closurizednamespacesinfo_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = closurizednamespacesinfo_test.py; sourceTree = "<group>"; };
+		5996E35D15A8C42C00556619 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		5996E35E15A8C42C00556619 /* error.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = error.py; sourceTree = "<group>"; };
+		5996E35F15A8C42C00556619 /* erroraccumulator.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = erroraccumulator.py; sourceTree = "<group>"; };
+		5996E36015A8C42C00556619 /* errorhandler.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = errorhandler.py; sourceTree = "<group>"; };
+		5996E36115A8C42C00556619 /* erroroutput.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = erroroutput.py; sourceTree = "<group>"; };
+		5996E36215A8C42C00556619 /* filetestcase.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = filetestcase.py; sourceTree = "<group>"; };
+		5996E36315A8C42C00556619 /* htmlutil.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = htmlutil.py; sourceTree = "<group>"; };
+		5996E36415A8C42C00556619 /* lintrunner.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lintrunner.py; sourceTree = "<group>"; };
+		5996E36515A8C42C00556619 /* matcher.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = matcher.py; sourceTree = "<group>"; };
+		5996E36615A8C42C00556619 /* position.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = position.py; sourceTree = "<group>"; };
+		5996E36715A8C42C00556619 /* simplefileflags.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = simplefileflags.py; sourceTree = "<group>"; };
+		5996E36815A8C42C00556619 /* tokenizer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tokenizer.py; sourceTree = "<group>"; };
+		5996E36915A8C42C00556619 /* tokens.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tokens.py; sourceTree = "<group>"; };
+		5996E36A15A8C42C00556619 /* tokens_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tokens_test.py; sourceTree = "<group>"; };
+		5996E36B15A8C42C00556619 /* ecmalintrules.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ecmalintrules.py; sourceTree = "<group>"; };
+		5996E36C15A8C42C00556619 /* ecmametadatapass.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ecmametadatapass.py; sourceTree = "<group>"; };
+		5996E36D15A8C42C00556619 /* error_check.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = error_check.py; sourceTree = "<group>"; };
+		5996E36E15A8C42C00556619 /* error_fixer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = error_fixer.py; sourceTree = "<group>"; };
+		5996E36F15A8C42C00556619 /* errorrecord.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = errorrecord.py; sourceTree = "<group>"; };
+		5996E37015A8C42C00556619 /* errorrules.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = errorrules.py; sourceTree = "<group>"; };
+		5996E37115A8C42C00556619 /* errors.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = errors.py; sourceTree = "<group>"; };
+		5996E37215A8C42C00556619 /* fixjsstyle.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fixjsstyle.py; sourceTree = "<group>"; };
+		5996E37315A8C42C00556619 /* fixjsstyle_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fixjsstyle_test.py; sourceTree = "<group>"; };
+		5996E37415A8C42C00556619 /* full_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = full_test.py; sourceTree = "<group>"; };
+		5996E37515A8C42C00556619 /* gjslint.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gjslint.py; sourceTree = "<group>"; };
+		5996E37615A8C42C00556619 /* indentation.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = indentation.py; sourceTree = "<group>"; };
+		5996E37715A8C42C00556619 /* javascriptlintrules.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = javascriptlintrules.py; sourceTree = "<group>"; };
+		5996E37815A8C42C00556619 /* javascriptstatetracker.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = javascriptstatetracker.py; sourceTree = "<group>"; };
+		5996E37915A8C42C00556619 /* javascripttokenizer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = javascripttokenizer.py; sourceTree = "<group>"; };
+		5996E37A15A8C42C00556619 /* javascripttokens.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = javascripttokens.py; sourceTree = "<group>"; };
+		5996E37B15A8C42C00556619 /* not_strict_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = not_strict_test.py; sourceTree = "<group>"; };
+		5996E37C15A8C42C00556619 /* requireprovidesorter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = requireprovidesorter.py; sourceTree = "<group>"; };
+		5996E37D15A8C42C00556619 /* requireprovidesorter_test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = requireprovidesorter_test.py; sourceTree = "<group>"; };
+		5996E37E15A8C42C00556619 /* statetracker.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = statetracker.py; sourceTree = "<group>"; };
+		5996E38015A8C42C00556619 /* all_js_wrapped.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = all_js_wrapped.js; sourceTree = "<group>"; };
+		5996E38115A8C42C00556619 /* blank_lines.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = blank_lines.js; sourceTree = "<group>"; };
+		5996E38215A8C42C00556619 /* bugs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bugs.js; sourceTree = "<group>"; };
+		5996E38315A8C42C00556619 /* ends_with_block.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ends_with_block.js; sourceTree = "<group>"; };
+		5996E38415A8C42C00556619 /* externs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = externs.js; sourceTree = "<group>"; };
+		5996E38515A8C42C00556619 /* externs_jsdoc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = externs_jsdoc.js; sourceTree = "<group>"; };
+		5996E38615A8C42C00556619 /* fixjsstyle.in.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fixjsstyle.in.js; sourceTree = "<group>"; };
+		5996E38715A8C42C00556619 /* fixjsstyle.indentation.out.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fixjsstyle.indentation.out.js; sourceTree = "<group>"; };
+		5996E38815A8C42C00556619 /* fixjsstyle.out.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fixjsstyle.out.js; sourceTree = "<group>"; };
+		5996E38915A8C42C00556619 /* goog_scope.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = goog_scope.js; sourceTree = "<group>"; };
+		5996E38A15A8C42C00556619 /* html_parse_error.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = html_parse_error.html; sourceTree = "<group>"; };
+		5996E38B15A8C42C00556619 /* indentation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = indentation.js; sourceTree = "<group>"; };
+		5996E38C15A8C42C00556619 /* interface.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = interface.js; sourceTree = "<group>"; };
+		5996E38D15A8C42C00556619 /* jsdoc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jsdoc.js; sourceTree = "<group>"; };
+		5996E38E15A8C42C00556619 /* limited_doc_checks.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = limited_doc_checks.js; sourceTree = "<group>"; };
+		5996E38F15A8C42C00556619 /* minimal.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = minimal.js; sourceTree = "<group>"; };
+		5996E39015A8C42C00556619 /* not_strict.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = not_strict.js; sourceTree = "<group>"; };
+		5996E39115A8C42C00556619 /* other.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = other.js; sourceTree = "<group>"; };
+		5996E39215A8C42C00556619 /* provide_blank.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = provide_blank.js; sourceTree = "<group>"; };
+		5996E39315A8C42C00556619 /* provide_extra.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = provide_extra.js; sourceTree = "<group>"; };
+		5996E39415A8C42C00556619 /* provide_missing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = provide_missing.js; sourceTree = "<group>"; };
+		5996E39515A8C42C00556619 /* require_all_caps.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_all_caps.js; sourceTree = "<group>"; };
+		5996E39615A8C42C00556619 /* require_blank.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_blank.js; sourceTree = "<group>"; };
+		5996E39715A8C42C00556619 /* require_extra.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_extra.js; sourceTree = "<group>"; };
+		5996E39815A8C42C00556619 /* require_function.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_function.js; sourceTree = "<group>"; };
+		5996E39915A8C42C00556619 /* require_function_missing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_function_missing.js; sourceTree = "<group>"; };
+		5996E39A15A8C42C00556619 /* require_function_through_both.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_function_through_both.js; sourceTree = "<group>"; };
+		5996E39B15A8C42C00556619 /* require_function_through_namespace.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_function_through_namespace.js; sourceTree = "<group>"; };
+		5996E39C15A8C42C00556619 /* require_interface.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_interface.js; sourceTree = "<group>"; };
+		5996E39D15A8C42C00556619 /* require_interface_base.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_interface_base.js; sourceTree = "<group>"; };
+		5996E39E15A8C42C00556619 /* require_lower_case.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_lower_case.js; sourceTree = "<group>"; };
+		5996E39F15A8C42C00556619 /* require_missing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_missing.js; sourceTree = "<group>"; };
+		5996E3A015A8C42C00556619 /* require_numeric.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_numeric.js; sourceTree = "<group>"; };
+		5996E3A115A8C42C00556619 /* require_provide_blank.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_provide_blank.js; sourceTree = "<group>"; };
+		5996E3A215A8C42C00556619 /* require_provide_missing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_provide_missing.js; sourceTree = "<group>"; };
+		5996E3A315A8C42C00556619 /* require_provide_ok.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = require_provide_ok.js; sourceTree = "<group>"; };
+		5996E3A415A8C42C00556619 /* simple.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = simple.html; sourceTree = "<group>"; };
+		5996E3A515A8C42C00556619 /* spaces.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = spaces.js; sourceTree = "<group>"; };
+		5996E3A615A8C42C00556619 /* tokenizer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tokenizer.js; sourceTree = "<group>"; };
+		5996E3A715A8C42C00556619 /* unparseable.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = unparseable.js; sourceTree = "<group>"; };
+		5996E3A815A8C42C00556619 /* unused_private_members.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = unused_private_members.js; sourceTree = "<group>"; };
+		5996E3A915A8C42C00556619 /* utf8.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = utf8.html; sourceTree = "<group>"; };
+		5996E3AA15A8C42C00556619 /* tokenutil.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tokenutil.py; sourceTree = "<group>"; };
+		5996E3AB15A8C42C00556619 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5996E3AC15A8C42C00556619 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5996E3AD15A8C42C00556619 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5996E34915A8C3F700556619 = {
+			isa = PBXGroup;
+			children = (
+				5996E35515A8C42C00556619 /* AUTHORS */,
+				5996E35615A8C42C00556619 /* closure_linter */,
+				5996E3AB15A8C42C00556619 /* LICENSE */,
+				5996E3AC15A8C42C00556619 /* README */,
+				5996E3AD15A8C42C00556619 /* setup.py */,
+			);
+			sourceTree = "<group>";
+		};
+		5996E35615A8C42C00556619 /* closure_linter */ = {
+			isa = PBXGroup;
+			children = (
+				5996E35715A8C42C00556619 /* __init__.py */,
+				5996E35815A8C42C00556619 /* checker.py */,
+				5996E35915A8C42C00556619 /* checkerbase.py */,
+				5996E35A15A8C42C00556619 /* closurizednamespacesinfo.py */,
+				5996E35B15A8C42C00556619 /* closurizednamespacesinfo_test.py */,
+				5996E35C15A8C42C00556619 /* common */,
+				5996E36B15A8C42C00556619 /* ecmalintrules.py */,
+				5996E36C15A8C42C00556619 /* ecmametadatapass.py */,
+				5996E36D15A8C42C00556619 /* error_check.py */,
+				5996E36E15A8C42C00556619 /* error_fixer.py */,
+				5996E36F15A8C42C00556619 /* errorrecord.py */,
+				5996E37015A8C42C00556619 /* errorrules.py */,
+				5996E37115A8C42C00556619 /* errors.py */,
+				5996E37215A8C42C00556619 /* fixjsstyle.py */,
+				5996E37315A8C42C00556619 /* fixjsstyle_test.py */,
+				5996E37415A8C42C00556619 /* full_test.py */,
+				5996E37515A8C42C00556619 /* gjslint.py */,
+				5996E37615A8C42C00556619 /* indentation.py */,
+				5996E37715A8C42C00556619 /* javascriptlintrules.py */,
+				5996E37815A8C42C00556619 /* javascriptstatetracker.py */,
+				5996E37915A8C42C00556619 /* javascripttokenizer.py */,
+				5996E37A15A8C42C00556619 /* javascripttokens.py */,
+				5996E37B15A8C42C00556619 /* not_strict_test.py */,
+				5996E37C15A8C42C00556619 /* requireprovidesorter.py */,
+				5996E37D15A8C42C00556619 /* requireprovidesorter_test.py */,
+				5996E37E15A8C42C00556619 /* statetracker.py */,
+				5996E37F15A8C42C00556619 /* testdata */,
+				5996E3AA15A8C42C00556619 /* tokenutil.py */,
+			);
+			path = closure_linter;
+			sourceTree = "<group>";
+		};
+		5996E35C15A8C42C00556619 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5996E35D15A8C42C00556619 /* __init__.py */,
+				5996E35E15A8C42C00556619 /* error.py */,
+				5996E35F15A8C42C00556619 /* erroraccumulator.py */,
+				5996E36015A8C42C00556619 /* errorhandler.py */,
+				5996E36115A8C42C00556619 /* erroroutput.py */,
+				5996E36215A8C42C00556619 /* filetestcase.py */,
+				5996E36315A8C42C00556619 /* htmlutil.py */,
+				5996E36415A8C42C00556619 /* lintrunner.py */,
+				5996E36515A8C42C00556619 /* matcher.py */,
+				5996E36615A8C42C00556619 /* position.py */,
+				5996E36715A8C42C00556619 /* simplefileflags.py */,
+				5996E36815A8C42C00556619 /* tokenizer.py */,
+				5996E36915A8C42C00556619 /* tokens.py */,
+				5996E36A15A8C42C00556619 /* tokens_test.py */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		5996E37F15A8C42C00556619 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				5996E38015A8C42C00556619 /* all_js_wrapped.js */,
+				5996E38115A8C42C00556619 /* blank_lines.js */,
+				5996E38215A8C42C00556619 /* bugs.js */,
+				5996E38315A8C42C00556619 /* ends_with_block.js */,
+				5996E38415A8C42C00556619 /* externs.js */,
+				5996E38515A8C42C00556619 /* externs_jsdoc.js */,
+				5996E38615A8C42C00556619 /* fixjsstyle.in.js */,
+				5996E38715A8C42C00556619 /* fixjsstyle.indentation.out.js */,
+				5996E38815A8C42C00556619 /* fixjsstyle.out.js */,
+				5996E38915A8C42C00556619 /* goog_scope.js */,
+				5996E38A15A8C42C00556619 /* html_parse_error.html */,
+				5996E38B15A8C42C00556619 /* indentation.js */,
+				5996E38C15A8C42C00556619 /* interface.js */,
+				5996E38D15A8C42C00556619 /* jsdoc.js */,
+				5996E38E15A8C42C00556619 /* limited_doc_checks.js */,
+				5996E38F15A8C42C00556619 /* minimal.js */,
+				5996E39015A8C42C00556619 /* not_strict.js */,
+				5996E39115A8C42C00556619 /* other.js */,
+				5996E39215A8C42C00556619 /* provide_blank.js */,
+				5996E39315A8C42C00556619 /* provide_extra.js */,
+				5996E39415A8C42C00556619 /* provide_missing.js */,
+				5996E39515A8C42C00556619 /* require_all_caps.js */,
+				5996E39615A8C42C00556619 /* require_blank.js */,
+				5996E39715A8C42C00556619 /* require_extra.js */,
+				5996E39815A8C42C00556619 /* require_function.js */,
+				5996E39915A8C42C00556619 /* require_function_missing.js */,
+				5996E39A15A8C42C00556619 /* require_function_through_both.js */,
+				5996E39B15A8C42C00556619 /* require_function_through_namespace.js */,
+				5996E39C15A8C42C00556619 /* require_interface.js */,
+				5996E39D15A8C42C00556619 /* require_interface_base.js */,
+				5996E39E15A8C42C00556619 /* require_lower_case.js */,
+				5996E39F15A8C42C00556619 /* require_missing.js */,
+				5996E3A015A8C42C00556619 /* require_numeric.js */,
+				5996E3A115A8C42C00556619 /* require_provide_blank.js */,
+				5996E3A215A8C42C00556619 /* require_provide_missing.js */,
+				5996E3A315A8C42C00556619 /* require_provide_ok.js */,
+				5996E3A415A8C42C00556619 /* simple.html */,
+				5996E3A515A8C42C00556619 /* spaces.js */,
+				5996E3A615A8C42C00556619 /* tokenizer.js */,
+				5996E3A715A8C42C00556619 /* unparseable.js */,
+				5996E3A815A8C42C00556619 /* unused_private_members.js */,
+				5996E3A915A8C42C00556619 /* utf8.html */,
+			);
+			path = testdata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5996E34B15A8C3F700556619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 5996E34E15A8C3F700556619 /* Build configuration list for PBXProject "closure-linter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5996E34915A8C3F700556619;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5996E35015A8C3F700556619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5996E35115A8C3F700556619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5996E34E15A8C3F700556619 /* Build configuration list for PBXProject "closure-linter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5996E35015A8C3F700556619 /* Debug */,
+				5996E35115A8C3F700556619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5996E34B15A8C3F700556619 /* Project object */;
+}
